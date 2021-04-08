@@ -1,0 +1,226 @@
+import 'package:flutter/material.dart';
+import 'package:adobe_xd/pinned.dart';
+
+class iPhone12ProMax13 extends StatelessWidget {
+  iPhone12ProMax13({
+    Key key,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0x8ff9f9f9),
+      body: Stack(
+        children: <Widget>[
+          Container(
+            width: 428.0,
+            height: 926.0,
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment(0.0, -1.0),
+                end: Alignment(0.0, 1.0),
+                colors: [
+                  const Color(0xff0c3cf5),
+                  const Color(0xff188edc),
+                  const Color(0xff12b6e4)
+                ],
+                stops: [0.0, 0.495, 1.0],
+              ),
+              border: Border.all(width: 1.0, color: const Color(0xff707070)),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(73.0, 86.0),
+            child:
+                // Adobe XD layer: 'WhatsApp Image 2021…' (shape)
+                Container(
+              width: 283.0,
+              height: 162.0,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(57.0),
+                image: DecorationImage(
+                  image: const AssetImage(''),
+                  fit: BoxFit.fill,
+                ),
+              ),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(48.0, 290.0),
+            child: Text(
+              'Sign In:',
+              style: TextStyle(
+                fontFamily: 'Rockwell',
+                fontSize: 40,
+                color: const Color(0xfffffcfc),
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(23.0, 369.0),
+            child: Text(
+              'Backup & sync on multiple\ndevices.\nTrack more goals and habits.\nUpload photos when checking in.',
+              style: TextStyle(
+                fontFamily: 'Rockwell',
+                fontSize: 25,
+                color: const Color(0xfffffcfc),
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(62.0, 564.0),
+            child: Container(
+              width: 304.0,
+              height: 52.0,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(26.0),
+                color: const Color(0xffffffff),
+                border: Border.all(width: 1.0, color: const Color(0xff707070)),
+              ),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(96.0, 573.0),
+            child:
+                // Adobe XD layer: 'google' (shape)
+                Container(
+              width: 34.0,
+              height: 34.0,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: const AssetImage(''),
+                  fit: BoxFit.fill,
+                ),
+              ),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(149.0, 578.0),
+            child: Text(
+              'Sign in with Google',
+              style: TextStyle(
+                fontFamily: 'Rockwell',
+                fontSize: 20,
+                color: const Color(0xff000000),
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(130.0, 631.0),
+            child: Text(
+              'Sign in with Email',
+              style: TextStyle(
+                fontFamily: 'Rockwell',
+                fontSize: 20,
+                color: const Color(0xfffefafa),
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(56.0, 817.0),
+            child: Text.rich(
+              TextSpan(
+                style: TextStyle(
+                  fontFamily: 'Rockwell',
+                  fontSize: 12,
+                  color: const Color(0xfffefafa),
+                ),
+                children: [
+                  TextSpan(
+                    text:
+                        'By tapping "Sign In with Google", or "Sign In with Email", \nyou agree to Mindful Suite\'s ',
+                  ),
+                  TextSpan(
+                    text: 'Terms of Service',
+                    style: TextStyle(
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                  TextSpan(
+                    text: ' and\n',
+                  ),
+                  TextSpan(
+                    text: ' Privacy Policy.',
+                    style: TextStyle(
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                ],
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          SizedBox(
+            width: 428.0,
+            height: 53.0,
+            child: Stack(
+              children: <Widget>[
+                Pinned.fromSize(
+                  bounds: Rect.fromLTWH(0.0, 0.0, 428.0, 53.0),
+                  size: Size(428.0, 53.0),
+                  pinLeft: true,
+                  pinRight: true,
+                  pinTop: true,
+                  pinBottom: true,
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: const Color(0xffffffff),
+                      border: Border.all(
+                          width: 1.0, color: const Color(0xff707070)),
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0x29000000),
+                          offset: Offset(9, 3),
+                          blurRadius: 6,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Pinned.fromSize(
+                  bounds: Rect.fromLTWH(6.0, 5.0, 44.0, 44.0),
+                  size: Size(428.0, 53.0),
+                  pinLeft: true,
+                  pinTop: true,
+                  pinBottom: true,
+                  fixedWidth: true,
+                  child:
+                      // Adobe XD layer: 'square' (shape)
+                      Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: const AssetImage(''),
+                        fit: BoxFit.fill,
+                      ),
+                    ),
+                  ),
+                ),
+                Pinned.fromSize(
+                  bounds: Rect.fromLTWH(371.0, 5.0, 44.0, 44.0),
+                  size: Size(428.0, 53.0),
+                  pinRight: true,
+                  pinTop: true,
+                  pinBottom: true,
+                  fixedWidth: true,
+                  child:
+                      // Adobe XD layer: 'undo (1)' (shape)
+                      Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: const AssetImage(''),
+                        fit: BoxFit.fill,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
